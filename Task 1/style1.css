@@ -1,0 +1,73 @@
+
+        *
+        {
+
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .cont1
+        {
+
+            height: 100%;
+            width: 100%;
+            background-color: E5D9B6;
+           
+        }
+
+        .cont1 .cal
+        {
+            height: 480;
+            width: 500;
+            background-color: #A4BE7B;
+           margin-left: 370;
+           padding-top: 100;
+           border-radius: 20px;
+        }
+
+        .cont1 .cal  .top
+        {
+            height: 120;
+            width: 450;
+            background-color: #5F8D4E;
+            border-radius: 20px;
+            border-style: none;
+            position: relative;
+            top:-70;
+            font-size: 50;
+            margin-left: 25;
+            color: white;
+        }
+
+        .cont1 .cal .keys
+        {
+            height: 60;
+            width: 78;
+            background-color: #285430 ;
+            position: relative;
+            top:-40;
+            margin-left: 10;
+            border-radius: 10px;
+            font-size: 25;
+            color: white;
+            border-style: none;
+        }
+        .cont1 .cal .last
+        {
+            margin-left: 15;
+        }
+
+        .cont1 .cal .keys2
+        {
+            height: 60;
+            width: 450;
+            background-color: #285430 ;
+            position: relative;
+            top:-40;
+            margin-left: 10;
+            border-radius: 10px;
+            font-size: 25;
+            color: white;
+            border-style: none;
+        }

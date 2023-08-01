@@ -1,0 +1,99 @@
+*
+{
+padding: 0;
+margin: 0;
+font-family: "montserrat";
+}
+
+body
+{
+
+background-color: rgb(50, 21, 77);
+}
+
+.cont1
+{
+height: 470;
+width: 400;
+background-color: rgb(221, 210, 231);
+border-radius: 10px;
+margin: auto;
+margin-top: 20;
+}
+.h1
+{
+font-size:25;
+text-align: center;
+}
+
+#taskTitle{
+height: 30;
+width: 340;
+border-radius: 3px;
+border: 1px;
+color: rgb(50, 21, 77); 
+}
+
+#taskDescription
+{
+
+border-radius: 3px;
+}
+.btn
+{
+height: 40;
+width: 340;
+border-radius: 3px;
+border: 1px;
+background-color: rgb(50, 21, 77); 
+color: rgb(221, 210, 231);
+font-weight: 50;
+}
+
+.align 
+{
+
+margin-left: 30;
+}
+
+.taskItem {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin: auto;
+border: 3px solid #ccc;
+padding: 10px;
+border-radius: 5px;
+width: 400px;
+margin-top: 30px;
+}
+.taskItem input[type="checkbox"]
+ {
+margin-right: 10px;
+}
+.taskItem h3 
+{
+color: white;
+margin: 0;
+}
+.taskItem p 
+{
+color: rgb(221, 210, 231);
+margin: 5px 0;
+}
+.taskItem button 
+{
+background-color: rgb(221, 210, 231);
+color: rgb(50, 21, 77); 
+border: none;
+padding: 5px 10px;
+border-radius: 3px ;
+
+}
+
+::placeholder
+{
+
+font-size: 12;
+padding-left: 10px;
+}
